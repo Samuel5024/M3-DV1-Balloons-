@@ -14,8 +14,8 @@ public class BalloonController : MonoBehaviour
             Debug.Log("Trigger down");
             CreateBalloon();
         }
-        // else if(Input.GetButtonUp("XRI_Right_TriggerButton"))
-        if(Input.GetButtonUp("XRI_Right_TriggerButton"))
+         else if(Input.GetButtonUp("XRI_Right_TriggerButton"))
+        
         {
             Debug.Log("Trigger up");
             ReleaseBalloon();
