@@ -623,10 +623,10 @@ MonoBehaviour:
       - m_Target: {fileID: 364722011}
         m_TargetAssemblyTypeName: BalloonController, Assembly-CSharp
         m_MethodName: CreateBalloon
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2142509509}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -880,6 +880,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2142509509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1670256624, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 221460740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6349831347558609280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -938,7 +943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4412578688477741202, guid: d280d6ecf91a4014b86a1a77956c476a, type: 3}
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4412578688477741202, guid: d280d6ecf91a4014b86a1a77956c476a, type: 3}
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -977,8 +982,12 @@ PrefabInstance:
       value: BalloonController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4412578688477741202, guid: d280d6ecf91a4014b86a1a77956c476a, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 6349831347558609283}
+    - target: {fileID: 4412578688477741202, guid: d280d6ecf91a4014b86a1a77956c476a, type: 3}
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4412578688477741202, guid: d280d6ecf91a4014b86a1a77956c476a, type: 3}
       propertyPath: m_Deactivated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1016,6 +1025,11 @@ MonoBehaviour:
   balloonPrefab: {fileID: 1779624049488709388, guid: b1dad8e8bbdd7d1448108599305b834a, type: 3}
   floatStrength: 20
   growRate: 1.5
+--- !u!1 &6349831347558609283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5963374493170402538, guid: d280d6ecf91a4014b86a1a77956c476a, type: 3}
+  m_PrefabInstance: {fileID: 6349831347558609280}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

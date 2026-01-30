@@ -10,17 +10,7 @@ public class BalloonController : MonoBehaviour
      private GameObject balloon;
    void Update()
     {
-        if(Input.GetButtonDown("XRI_Right_TriggerButton"))
-        {
-            Debug.Log("Trigger down");
-            CreateBalloon();
-        }
-         else if(Input.GetButtonUp("XRI_Right_TriggerButton"))
-        {
-            Debug.Log("Trigger up");
-            ReleaseBalloon();
-        }
-        else if(balloon != null)
+        if(balloon != null)
         {
             GrowBalloon();
         }
