@@ -322,6 +322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcda1e78812a9fc4c90eda6512089e93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  balloonPrefab: {fileID: 1779624049488709388, guid: b1dad8e8bbdd7d1448108599305b834a, type: 3}
+  floatStrength: 20
 --- !u!1 &829858524
 GameObject:
   m_ObjectHideFlags: 0
